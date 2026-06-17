@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дом «Дзен 140»</title>
+    <link rel="stylesheet" href="./assets/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="header" id="site-header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="header__logo">
+                    <img src="./assets/images/logo.png" alt="Дзен" />
+                </a>
+
+                <div class="header__mobile-center">
+                    <div class="header__city">Екатеринбург</div>
+                    <a href="tel:+79120342244" class="header__phone">+7 (912) 034-22-44</a>
+                </div>
+
+                <button class="header__burger" type="button" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <nav class="header__drawer">
+                    <div class="header__drawer-head">
+                        <button class="header__drawer-close" type="button" aria-label="Закрыть меню">×</button>
+                    </div>
+
+                    <ul class="header__drawer-menu">
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#projects">Проекты</a></li>
+                        <li><a href="#gallery">Галерея</a></li>
+                        <li><a href="#blog">Блог</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+
+                    <a href="#contacts" class="header__drawer-button btn btn--shine">Заказать звонок</a>
+                </nav>
+
+                <div class="header__backdrop"></div>
+
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#projects">Проекты</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header__side">
+                    <div class="header__contacts">
+                        <div class="header__city">Екатеринбург</div>
+                        <a href="tel:+79120342244" class="header__phone">+7 (912) 034-22-44</a>
+                    </div>
+
+                    <a href="#contacts" class="header__button btn btn--shine btn--arrow">
+                        <span>ЗАКАЗАТЬ ЗВОНОК</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- PROJECT HERO -->
+        <section class="project-hero">
+            <div class="container">
+                <h1 class="title project-hero__title heading-number">Дом «Дзен 140»</h1>
+
+                <div class="project-hero__layout">
+                    <div class="project-hero__slider">
+                        <div class="swiper js-project-hero-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="./assets/images/project-140.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="./assets/images/project-155.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="./assets/images/project-200.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <button class="arrow arrow--circle arrow--white arrow--prev" type="button"
+                            aria-label="Предыдущее фото"></button>
+                        <button class="arrow arrow--circle arrow--white arrow--next" type="button"
+                            aria-label="Следующее фото"></button>
+                    </div>
+
+                    <div class="project-hero__info">
+                        <div class="project-hero__price">от 10 200 000 ₽</div>
+
+                        <div class="project-hero__features">
+                            <div class="project-hero__feature">
+                                <img src="./assets/images/Bed_traced.svg" alt="">
+                                <span><b>3</b> спальни</span>
+                            </div>
+                            <div class="project-hero__feature">
+                                <img src="./assets/images/Bathtub_traced.svg" alt="">
+                                <span><b>2</b> санузла</span>
+                            </div>
+                            <div class="project-hero__feature">
+                                <img src="./assets/images/Closed_Window.svg" alt="">
+                                <span><b>2 м</b> окна</span>
+                            </div>
+                        </div>
+
+                        <p class="project-hero__text">Готовый проект <strong>«под ключ»</strong></p>
+
+                        <button class="btn project-hero__button" data-open-callback>ОСТАВИТЬ ЗАЯВКУ</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT ABOUT -->
+        <section class="project-about" id="about">
+            <div class="container">
+                <h2 class="section-title">Описание проекта</h2>
+
+                <div class="project-about__grid">
+                    <div class="project-about__media">
+                        <img class="project-about__image" src="./assets/images/project_about.png" alt="Дом Дзен 140">
+                    </div>
+
+                    <div class="project-about__content">
+                        <h3 class="project-about__title heading-number">S-140 м² 1 ЭТАЖ</h3>
+
+                        <p class="project-about__text">
+                            Крыша комбинированная, двухскатная, металлочерепица.
+                            Фасад с декоративной штукатуркой и деревянным планкеном.
+                            Хозяйская спальня с гардеробом и санузлом, выход на веранду.
+                            Зона ТВ отделена от проходной зоны. Пространство второго света
+                            создаёт эффект объёма и воздушной наполненности.
+                        </p>
+
+                        <p class="project-about__note">
+                            <strong>Особенности:</strong> широкоформатные окна высотой 2 м.
+                        </p>
+
+                        <div class="project-about__facts">
+                            <div class="project-about__fact">
+                                <img class="project-about__fact-icon" src="./assets/images/Balcony.svg" alt="">
+                                <div class="project-about__fact-text"><strong>12,5 м<sup>2</sup></strong> веранда</div>
+                            </div>
+                            <div class="project-about__fact">
+                                <img class="project-about__fact-icon" src="./assets/images/photo.svg" alt="">
+                                <div class="project-about__fact-text"><strong>6,3 м<sup>2</sup></strong> тех. помещение
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT PLAN -->
+        <section class="project-plan">
+            <div class="container">
+                <h2 class="section-title">Планировка</h2>
+
+                <div class="project-plan__grid">
+                    <article class="project-plan__card">
+                        <button class="project-plan__button" type="button" data-plan-index="0"
+                            aria-label="Открыть планировку без мебели">
+                            <div class="project-plan__image-wrap">
+                                <img class="project-plan__image" src="./assets/images/project-plan1.png"
+                                    alt="Планировка без мебели">
+                            </div>
+                            <p class="project-plan__caption">Без мебели</p>
+                        </button>
+                    </article>
+
+                    <article class="project-plan__card">
+                        <button class="project-plan__button" type="button" data-plan-index="1"
+                            aria-label="Открыть планировку с мебелью">
+                            <div class="project-plan__image-wrap">
+                                <img class="project-plan__image" src="./assets/images/project-plan2.png"
+                                    alt="Планировка с мебелью">
+                            </div>
+                            <p class="project-plan__caption">С мебелью</p>
+                        </button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- PLAN LIGHTBOX -->
+        <div class="plan-lightbox" id="planLightbox" aria-hidden="true">
+            <div class="plan-lightbox__backdrop" data-plan-close></div>
+            <div class="plan-lightbox__dialog" role="dialog" aria-modal="true" aria-label="Просмотр планировки">
+                <button class="plan-lightbox__close" type="button" aria-label="Закрыть" data-plan-close>×</button>
+                <button class="arrow arrow--prev" type="button" aria-label="Предыдущая планировка"></button>
+                <div class="plan-lightbox__stage">
+                    <img class="plan-lightbox__image" id="planLightboxImage" src="" alt="">
+                </div>
+                <button class="arrow arrow--next" type="button" aria-label="Следующая планировка"></button>
+            </div>
+        </div>
+
+        <!-- PROJECT FORMAT -->
+        <section class="project-format" id="formats">
+            <div class="container">
+                <h2 class="section-title">Форматы комплектации Вашего дома:</h2>
+
+                <div class="project-format__grid">
+                    <article class="project-format__card">
+                        <div class="project-format__media">
+                            <img class="project-format__image" src="./assets/images/project-140-format-1.png"
+                                alt="Формат 1">
+                        </div>
+                        <p class="project-format__price"><strong>от 10 200 000 ₽</strong></p>
+                        <h3 class="project-format__name">Формат 1: Под чистовую</h3>
+                        <button class="project-format__more" type="button">Подробное описание</button>
+                        <div class="project-format__details">
+                            Подготовленный дом под чистовую отделку: выполнены основные строительные и инженерные
+                            работы, чтобы вы могли завершить интерьер по своему вкусу.
+                        </div>
+                        <button class="btn btn--shine project-format__button" type="button"
+                            data-open-callback>КОНСУЛЬТАЦИЯ</button>
+                    </article>
+
+                    <article class="project-format__card">
+                        <div class="project-format__media">
+                            <img class="project-format__image" src="./assets/images/project-140-format-2.png"
+                                alt="Формат 2">
+                        </div>
+                        <p class="project-format__price"><strong>От 13 200 000 ₽</strong></p>
+                        <h3 class="project-format__name">Формат 2: Под ключ</h3>
+                        <button class="project-format__more" type="button">Подробное описание</button>
+                        <div class="project-format__details">
+                            Полностью готовый дом с чистовой отделкой, подключёнными инженерными системами и
+                            завершёнными внутренними работами.
+                        </div>
+                        <button class="btn btn--shine project-format__button" type="button"
+                            data-open-callback>КОНСУЛЬТАЦИЯ</button>
+                    </article>
+
+                    <article class="project-format__card">
+                        <div class="project-format__media">
+                            <img class="project-format__image" src="./assets/images/project-140-format-3.png"
+                                alt="Формат 3">
+                        </div>
+                        <p class="project-format__price"><strong>От 15 700 000 ₽</strong></p>
+                        <h3 class="project-format__name">Формат 3: Под тапочки</h3>
+                        <button class="project-format__more" type="button">Подробное описание</button>
+                        <div class="project-format__details">
+                            Максимальная комплектация: готовый для жизни дом с отделкой, сантехникой, освещением и
+                            интерьерными решениями.
+                        </div>
+                        <button class="btn btn--shine project-format__button" type="button"
+                            data-open-callback>КОНСУЛЬТАЦИЯ</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT VISIT / STEPS -->
+        <section class="steps project-visit" id="visit">
+            <div class="container">
+                <div class="steps__inner">
+                    <h2 class="steps__title">Хотите убедиться в качестве домов лично?</h2>
+                    <p class="steps__caption">
+                        Организуем для вас экскурсию уже в построенный дом.
+                        Покажем, что уже построили в реальности, а не на рендерах.
+                    </p>
+
+                    <form class="steps__form-new">
+                        <input class="steps__input" type="text" placeholder="Ваше имя">
+                        <input class="steps__input" type="tel" placeholder="+7 (000) 000-00-00">
+                        <button type="submit" class="steps__submit btn btn--shine">ОСТАВИТЬ ЗАЯВКУ</button>
+
+                        <div class="steps__checks">
+                            <label class="steps__check form-check form-check--light">
+                                <input type="checkbox">
+                                <span>Я согласен с политикой конфиденциальности</span>
+                            </label>
+
+                            <label class="steps__check form-check form-check--light">
+                                <input type="checkbox">
+                                <span>Даю согласие на обработку персональных данных</span>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT GALLERY -->
+        <section class="project-gallery" id="gallery">
+            <div class="container">
+                <div class="project-gallery__tabs">
+                    <button class="project-gallery__tab is-active" type="button" data-tab="ext">Экстерьер</button>
+                    <button class="project-gallery__tab" type="button" data-tab="int">Интерьер</button>
+                </div>
+
+                <div class="project-gallery__panel is-active" data-panel="ext">
+                    <div class="project-gallery__top">
+                        <div class="project-gallery__nav">
+                            <button class="arrow arrow--circle arrow--gray arrow--prev" type="button"
+                                aria-label="Предыдущий слайд"></button>
+                            <button class="arrow arrow--circle arrow--gray arrow--next" type="button"
+                                aria-label="Следующий слайд"></button>
+                        </div>
+                    </div>
+                    <div class="swiper project-gallery__slider js-project-gallery-ext">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide project-gallery__slide">
+                                <div class="project-gallery__layout">
+                                    <div class="project-gallery__card--large"><img class="project-gallery__image"
+                                            src="./assets/images/ex1.png" alt="Экстерьер 1"></div>
+                                    <div class="project-gallery__card--small"><img class="project-gallery__image"
+                                            src="./assets/images/ex2.png" alt="Экстерьер 2"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide project-gallery__slide">
+                                <div class="project-gallery__layout">
+                                    <div class="project-gallery__card--large"><img class="project-gallery__image"
+                                            src="./assets/images/ex3.png" alt="Экстерьер 3"></div>
+                                    <div class="project-gallery__card--small"><img class="project-gallery__image"
+                                            src="./assets/images/ex4.png" alt="Экстерьер 4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-gallery__panel" data-panel="int">
+                    <div class="project-gallery__top">
+                        <div class="project-gallery__nav">
+                            <button class="arrow arrow--circle arrow--gray arrow--prev" type="button"
+                                aria-label="Предыдущий слайд"></button>
+                            <button class="arrow arrow--circle arrow--gray arrow--next" type="button"
+                                aria-label="Следующий слайд"></button>
+                        </div>
+                    </div>
+                    <div class="swiper project-gallery__slider js-project-gallery-int">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide project-gallery__slide">
+                                <div class="project-gallery__layout">
+                                    <div class="project-gallery__card--large"><img class="project-gallery__image"
+                                            src="./assets/images/in1.png" alt="Интерьер 1"></div>
+                                    <div class="project-gallery__card--small"><img class="project-gallery__image"
+                                            src="./assets/images/in2.png" alt="Интерьер 2"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide project-gallery__slide">
+                                <div class="project-gallery__layout">
+                                    <div class="project-gallery__card--large"><img class="project-gallery__image"
+                                            src="./assets/images/in3.png" alt="Интерьер 3"></div>
+                                    <div class="project-gallery__card--small"><img class="project-gallery__image"
+                                            src="./assets/images/in4.png" alt="Интерьер 4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT CONSULT -->
+        <section class="project-consult">
+            <div class="container">
+                <div class="project-consult__box">
+                    <div class="project-consult__inner">
+                        <div class="project-consult__text">
+                            <p><strong>Застройщик «Дзен»</strong> специализируется на строительстве и продаже готовых
+                                домов по собственным проектам класса «комфорт» и «комфорт+».</p>
+                            <p>Наши основные объекты расположены в КП «Заповедник» и других посёлках под Екатеринбургом.
+                            </p>
+                            <p><strong>Наша задача</strong> — избавить вас от сложностей и рисков стройки. Мы берём на
+                                себя всё: от проектирования дома до расстановки мебели по нашему дизайн-проекту. Вы
+                                получаете полностью готовый дом, где всё продумано до мелочей.</p>
+                        </div>
+
+                        <div class="project-consult__form-box">
+                            <h3 class="project-consult__form-title">Проконсультируйтесь<br>со специалистом</h3>
+                            <form class="project-consult__form">
+                                <input class="project-consult__input" type="text" placeholder="Ваше имя">
+                                <input class="project-consult__input" type="tel" placeholder="+7 (000) 000-00-00">
+                                <div class="steps__checks">
+                                    <label class="steps__check form-check form-check--light">
+                                        <input type="checkbox">
+                                        <span>Я согласен с политикой конфиденциальности</span>
+                                    </label>
+
+                                    <label class="steps__check form-check form-check--light">
+                                        <input type="checkbox">
+                                        <span>Даю согласие на обработку персональных данных</span>
+                                    </label>
+                                </div>
+                                <button class="services-form__btn btn btn--shine" type="button"
+                                    data-open-callback>КОНСУЛЬТАЦИЯ</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title projects__title">ДРУГИЕ ПРОЕКТЫ</h2>
+            </div>
+
+            <div class="projects__outer">
+                <button class="arrow arrow--circle arrow--green arrow--prev" type="button" aria-label="Назад"></button>
+
+                <div class="projects__center">
+                    <div class="container">
+                        <div class="swiper projects-swiper">
+                            <div class="swiper-wrapper">
+                                <article class="swiper-slide project-slide">
+                                    <div class="project-slide__image">
+                                        <img src="./assets/images/project-140.png" alt="Дзен 140">
+                                    </div>
+                                    <h3 class="project-slide__title heading-number">ДЗЕН 140</h3>
+                                    <p class="project-slide__text">Дом со вторым светом на 140 м²</p>
+                                    <a href="#" class="project-slide__btn btn btn--shine">УЗНАТЬ БОЛЬШЕ</a>
+                                </article>
+
+                                <article class="swiper-slide project-slide">
+                                    <div class="project-slide__image">
+                                        <img src="./assets/images/project-155.png" alt="Дзен 155">
+                                    </div>
+                                    <h3 class="project-slide__title heading-number">ДЗЕН 155</h3>
+                                    <p class="project-slide__text">
+                                        Классический дом с двускатной крышей и двумя верандами.
+                                    </p>
+                                    <a href="#" class="project-slide__btn btn btn--shine">УЗНАТЬ БОЛЬШЕ</a>
+                                </article>
+
+                                <article class="swiper-slide project-slide">
+                                    <div class="project-slide__image">
+                                        <img src="./assets/images/project-200.png" alt="Дзен 200">
+                                    </div>
+                                    <h3 class="project-slide__title heading-number">ДЗЕН 200</h3>
+                                    <p class="project-slide__text">
+                                        Дом в стиле хай-тек с плоской крышей и навесом для автомобилей.
+                                    </p>
+                                    <a href="#" class="project-slide__btn btn btn--shine">УЗНАТЬ БОЛЬШЕ</a>
+                                </article>
+
+                                <article class="swiper-slide project-slide">
+                                    <div class="project-slide__image">
+                                        <img src="./assets/images/project-170.jpg" alt="Дзен 175">
+                                    </div>
+                                    <h3 class="project-slide__title heading-number">ДЗЕН 175</h3>
+                                    <p class="project-slide__text">
+                                        Современный одноэтажный дом с террасой и удобной планировкой.
+                                    </p>
+                                    <a href="#" class="project-slide__btn btn btn--shine">УЗНАТЬ БОЛЬШЕ</a>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="arrow arrow--circle arrow--green arrow--next" type="button" aria-label="Вперёд"></button>
+            </div>
+        </section>
+
+        <!-- PROJECT BOTTOM CTA -->
+        <section class="project-bottom-cta ">
+            <div class="container">
+                <div class="project-bottom-cta__box">
+                    <div class="project-bottom-cta__main">
+                        <h2 class="project-bottom-cta__title">Доверьте нам строительство дома под ключ</h2>
+                        <p class="project-bottom-cta__text">Накопленный опыт позволяет нам строить одни из лучших домов
+                            в области</p>
+                        <a href="#projects" class="hero__button btn btn--shine" data-open-callback>
+                            КОНСУЛЬТАЦИЯ
+                        </a>
+                        <div class="hero__button-underlay" aria-hidden="true"></div>
+                    </div>
+
+                    <div class="project-bottom-cta__stats">
+                        <div class="project-bottom-cta__stat">
+                            <p class="project-bottom-cta__stat-value">100+</p>
+                            <p class="project-bottom-cta__stat-text">успешных проектов</p>
+                        </div>
+                        <div class="project-bottom-cta__stat">
+                            <p class="project-bottom-cta__stat-value">5 лет</p>
+                            <p class="project-bottom-cta__stat-text">гарантия на строительство</p>
+                        </div>
+                        <div class="project-bottom-cta__stat">
+                            <p class="project-bottom-cta__stat-value">от 180</p>
+                            <p class="project-bottom-cta__stat-text">дней готовность дома</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" id="contacts">
+        <div class="container">
+            <div class="site-footer__inner">
+                <div class="site-footer__left">
+                    <div class="site-footer__top">
+                        <a href="#" class="site-footer__logo">
+                            <img src="./assets/images/logo_footer.webp" alt="Дзен">
+                        </a>
+
+                        <nav class="site-footer__nav">
+                            <a href="#about">О нас</a>
+                            <a href="#projects">Проекты</a>
+                            <a href="#contacts">Контакты</a>
+                        </nav>
+                    </div>
+
+                    <div class="site-footer__middle">
+                        <div class="site-footer__company">
+                            <p>ИП Хавроничев А. А.</p>
+                            <p>ОГРНИП: 321665800025376</p>
+                            <p>ИНН: 561406718519</p>
+                        </div>
+
+                        <div class="site-footer__socials">
+                            <a href="#" class="site-footer__social"><img src="./assets/images/vk_logo.svg"
+                                    alt="MAX"></a>
+                            <a href="#" class="site-footer__social"><img src="./assets/images/max_logo.svg"
+                                    alt="MAX"></a>
+                            <a href="#" class="site-footer__social"><img src="./assets/images/tg_logo.svg"
+                                    alt="MAX"></a>
+                        </div>
+                    </div>
+                    <div class="site-footer__bottom">
+                        <a href="#" class="site-footer__button btn btn--shine btn--arrow">
+                            <span>ЗАКАЗАТЬ ЗВОНОК</span>
+                        </a>
+                        <div class="site-footer__copy">© 2025 «ДЗЕН Застройщик»</div>
+                    </div>
+                </div>
+
+                <div class="site-footer__right">
+                    <div class="site-footer__address">
+                        <p>г. Екатеринбург</p>
+                        <p>ул. Вильгельма де Геннина, 40</p>
+                    </div>
+
+                    <a class="site-footer__phone" href="tel:+79120342244">
+                        +7 (912) 034-22-44
+                    </a>
+
+                    <div class="site-footer__legal">
+                        <a href="#">Политика обработки персональных данных</a>
+                        <a href="#">Согласие на обработку персональных данных</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="callback-modal" id="callbackModal" aria-hidden="true">
+        <div class="callback-modal__backdrop" data-modal-close></div>
+
+        <div class="callback-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="callbackModalTitle">
+            <div class="callback-modal__top">
+                <button class="callback-modal__close" type="button" aria-label="Закрыть" data-modal-close>
+                    ×
+                </button>
+            </div>
+
+            <div class="callback-modal__body">
+                <h2 class="callback-modal__title heading-number" id="callbackModalTitle">Заказать звонок</h2>
+
+                <p class="callback-modal__text">
+                    Оставьте контактные данные и наш специалист свяжется с Вами через 15 минут
+                </p>
+
+                <form class="callback-modal__form">
+                    <input class="callback-modal__input form-input" type="text" placeholder="Ваше имя">
+                    <input class="callback-modal__input form-input" type="tel" placeholder="+7 (000) 000-00-00">
+
+                    <label class="callback-modal__check form-check">
+                        <input type="checkbox" checked>
+                        <span>Я даю согласие на обработку своих персональных данных в соответствии с политикой</span>
+                    </label>
+
+                    <label class="callback-modal__check form-check">
+                        <input type="checkbox" checked>
+                        <span>Даю согласие на обработку персональных данных</span>
+                    </label>
+
+                    <button class="callback-modal__submit btn btn--shine" type="submit">Жду звонка</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script defer src="./script.js"></script>
+</body>
+
+</html>
